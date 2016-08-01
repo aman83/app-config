@@ -1,11 +1,11 @@
 security:
   basic:
-    enabled: false # turn off securing our application endpoints
+    enabled: false
 
 management:
   security:
-    enabled: false # turn off securing the actuator endpoints
-	
+    enabled: false
+
 logging: # <----New sections below
   level:
     io:
